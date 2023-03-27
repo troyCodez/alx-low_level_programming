@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * main - check the code
@@ -8,10 +7,9 @@
  */
 int main(void)
 {
-    int n;
+    char *str;
 
-    n = add(89, 9);
-
-    printf("%d\n", n);
+    str = "0123456789";
+    puts_half(str);
     return (0);
 }
