@@ -1,8 +1,9 @@
 #include "main.h"
 /**
  * char *_strcpy - prints string pointedby src
- * @dest:
+ * @dest:buffer
  * @src:string
+ * Return:string
  */
 char *_strcpy(char *dest, char *src)
 {
